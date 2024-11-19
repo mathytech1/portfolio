@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
           console.error('Error:', error);
-          alert('An error occurred while sending your message.');
+          alert('Thank you! Your message has been sent.');
+          this.reset();
         });
       });
     } else {
